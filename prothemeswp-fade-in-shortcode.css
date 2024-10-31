@@ -1,0 +1,48 @@
+.prothemeswp-fade-in-shortcode, .prothemeswp-fade-in-background-shortcode {
+	position:relative;
+	z-index:0;
+}
+
+.prothemeswp-fade-in-shortcode-background-color, .prothemeswp-fade-in-shortcode-background-image {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+
+.prothemeswp-fade-in-shortcode-background-image {
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.prothemeswp-fade-in-shortcode-background-cover {
+	background-size:cover;
+}
+
+.prothemeswp-fade-in-shortcode-background-parallax {
+	background-attachment: fixed
+}
+
+.prothemeswp-fade-in-shortcode-background-tile {
+	background-repeat:repeat;
+}
+
+.prothemeswp-fade-in-shortcode-background-tile {
+	background-repeat:repeat;
+}
+
+.prothemeswp-fade-in-shortcode {
+	visibility:hidden;
+	z-index:10;
+	position:relative;
+	display:inline-block;
+}
+
+.prothemeswp-fade-in-shortcode-content, .prothemeswp-fade-in-background-shortcode-content {
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	z-index:10;
+}
